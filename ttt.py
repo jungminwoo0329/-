@@ -1,14 +1,11 @@
-print("2+3=", 2+3)
-print("2-3=", 2-3)
-print("2*3=", 2*3)
-print("2/3=", 2/3)
+#원의 면적을 구하는 프로그램
 
-print("안녕하세요")
-print("이번 코드에는 많은 오류가 있다네요")
-print("제가 다 고쳐 보곘습니다.")
+radius = 10
 
-print("+=============+")
-print("|    정민우   |")
-print("+=============+")
+area = 3.14 * radius * radius
 
-print("1+2+3을 계산하면 6입니다.")
+print(f"반지름이 {radius}인 원의 면적은 {area} 입니다")
+
+# print("반지름이", radius, "인 원의 면적은", area, "입니다")
+
+# print("반지름이" + str(radius) + "인 원의 면적은" + str(area) + "입니다")
