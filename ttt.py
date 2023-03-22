@@ -1,11 +1,43 @@
-#원의 면적을 구하는 프로그램
+#터틀 그래픽을 이용해서 그림 그리기 예제
+import turtle # 터틀 그래픽 사용을 선언
 
-radius = 10
+t = turtle.Turtle()
+t.shape("turtle") # 거북이 모양을 정의
 
-area = 3.14 * radius * radius
+t.fillcolor("blue")
 
-print(f"반지름이 {radius}인 원의 면적은 {area} 입니다")
+t.begin_fill()
+t.penup()
+t.goto(-200,-100)
+t.pendown()
+t.goto(-200,200)
+t.goto(200,200)
+t.goto(200,-100)
+t.goto(-200,-100)
+t.penup()
+t.end_fill()
 
-# print("반지름이", radius, "인 원의 면적은", area, "입니다")
+t.fillcolor("brown")
 
-# print("반지름이" + str(radius) + "인 원의 면적은" + str(area) + "입니다")
+t.begin_fill()
+t.goto(0,0)
+t.pendown()
+t.goto(0,100)
+t.goto(100,100)
+t.goto(100,0)
+t.goto(0,0)
+t.penup()
+
+
+t.end_fill()
+
+t.begin_fill()
+t.goto(-200,200)
+t.pendown()
+t.goto(0,300)
+t.goto(200,200)
+t.goto(-200,200)
+t.penup()
+t.end_fill()
+
+turtle.done()
