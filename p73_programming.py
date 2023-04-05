@@ -76,7 +76,18 @@
 
 
 # 8번 문제
-street= "서울시 종로구"
-type="아파트"
-number_of_rooms=3
-price=1000
+street= input("주소 : ")
+type= input("건물 유형 : ")
+number_of_rooms=input("방의 갯수 : ")
+price=input("가격 : ")
+
+x='''
+###################################
+#                                 #
+#        부동산 매물 광고          #
+#                                 #
+###################################
+'''
+print(x)
+y="{street}에 위치한 아주 좋은 {type} 가 매물로 나왔습니다. 이 아파트는 {number_of_rooms} 개의 방을 가지고 있으며 가격은 {price} 원입니다."
+print(y)
