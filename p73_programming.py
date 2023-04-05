@@ -27,16 +27,56 @@
 # print(f"전체 가격 = {total}")
 
 
-# 4번 문제
-a = 10
-b = 20
+# # 4번 문제
+# a = 10
+# b = 20
 
 
-print(f"바꾸기 전: a = {a} b = {b}")
+# print(f"바꾸기 전: a = {a} b = {b}")
 
-# x = b
-# b = a
-# a = x
+# # x = b
+# # b = a
+# # a = x
 
-a, b = b, a
-print(f"바꾸기 후: a = {a} b = {b}")
+# a, b = b, a
+# print(f"바꾸기 후: a = {a} b = {b}")
+
+
+# # 5번 문제
+# import turtle
+# t= turtle.Turtle()
+# t.shape("turtle")
+
+# side=int(input("삼각형 변의 길이를 알려주세요."))
+# t.forward(side)
+# t.left(120)
+# t.forward(side)
+# t.left(120)
+# t.forward(side)
+
+# turtle.done()
+
+
+# # 6번 문제
+# x = '''반짝 반짝 작은별 ....\n
+# 동쪽하늘에서도 ....\n
+# 반짝 반짝 작은별 ....\n'''
+
+# print(x)
+
+
+# # 7번 문제
+# x = input("드라이브 이름 : ")
+# y = input("디렉토리 이름 : ")
+# z = input("파일 이름 : ")
+# k = input ("확장자 : ")
+
+# s=x+":"+y+z+"."+k
+# print(f"완전한 이름은 {s}")
+
+
+# 8번 문제
+street= "서울시 종로구"
+type="아파트"
+number_of_rooms=3
+price=1000
